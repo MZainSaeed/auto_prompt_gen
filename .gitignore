@@ -1,0 +1,16 @@
+# Virtual Environment & Caches
+.venv/
+venv/
+.prompt_gen_cache/
+.pytest_cache/
+__pycache__/
+*.py[cod]
+
+# PyInstaller Outputs
+build/
+dist/
+*.spec.bak
+
+# Uploads & Temp
+uploads/
+*.log

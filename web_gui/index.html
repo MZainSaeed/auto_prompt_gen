@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Prompt Generator — Antigravity CLI</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,800;1,700&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="navbar">
+    <div class="navbar-inner">
+      <div class="nav-brand">
+        <span class="nav-gem">🔮</span>
+        <span class="nav-title">PromptGen</span>
+      </div>
+      <div class="nav-right">
+        <div class="account-pill" id="accountPill">
+          <span class="account-dot" id="accountDot">●</span>
+          <span id="accountLabel">Loading…</span>
+        </div>
+        <button class="btn-switch" id="btnSwitchAccount">⚡ Switch Account</button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO BANNER -->
+  <div class="hero-banner">
+    <div class="hero-inner">
+      <p class="hero-eyebrow">ANTIGRAVITY CLI · GEMINI 3.1 PRO HIGH</p>
+      <h1 class="hero-title">Batch <em>Prompt</em><br>Generator</h1>
+      <p class="hero-sub">15-scene batches · Resume-safe caching · Isolated processes</p>
+
+      <div class="quota-strip" id="quotaStrip">
+        <div class="quota-item" id="quotaGemini">
+          <span class="quota-label">Gemini Quota</span>
+          <div class="quota-bar-wrap">
+            <div class="quota-bar" id="quotaBarGemini" style="width:0%"></div>
+          </div>
+          <span class="quota-val" id="quotaValGemini">—</span>
+        </div>
+        <div class="quota-divider"></div>
+        <div class="quota-item" id="quotaClaude">
+          <span class="quota-label">Claude / GPT Quota</span>
+          <div class="quota-bar-wrap">
+            <div class="quota-bar quota-bar-claude" id="quotaBarClaude" style="width:0%"></div>
+          </div>
+          <span class="quota-val" id="quotaValClaude">—</span>
+        </div>
+        <button class="quota-refresh" id="quotaRefresh" title="Refresh quota">↻</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- MAIN CONTENT -->
+  <main class="main-content">
+
+    <!-- FILE INPUTS CARD -->
+    <section class="card" id="cardFiles">
+      <div class="card-header">
+        <span class="card-icon">📂</span>
+        <h2 class="card-title">Files</h2>
+      </div>
+
+      <div class="form-group">
+        <label class="form-label" for="inputFile">Input Script</label>
+        <div class="input-row">
+          <input type="text" id="inputFile" class="form-input" placeholder="D:\Waleed\video 12\Script.docx" autocomplete="off" />
+          <input type="file" id="htmlFileInput" accept=".docx" style="display:none" onchange="handleHtmlFileSelect(this)" />
+          <button class="btn-browse" onclick="browseFile('input', this)">Browse</button>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label class="form-label" for="outputFile">Output File</label>
+        <div class="input-row">
+          <input type="text" id="outputFile" class="form-input" placeholder="D:\Waleed\video 12\prompts.docx" autocomplete="off" />
+          <button class="btn-browse" onclick="browseFile('output', this)">Browse</button>
+        </div>
+      </div>
+
+      <div class="resume-badge" id="resumeBadge" style="display:none">
+        <span class="resume-icon">↩</span>
+        <span id="resumeText"></span>
+      </div>
+
+      <div class="action-row">
+        <button class="btn-primary" id="btnStart" onclick="startGeneration()">
+          <span class="btn-icon">▶</span> Start Generation
+        </button>
+        <button class="btn-danger" id="btnStop" onclick="stopGeneration()" style="display:none">
+          <span class="btn-icon">⏹</span> Stop
+        </button>
+        <button class="btn-warning" id="btnRetry" onclick="startGeneration()" style="display:none">
+          <span class="btn-icon">↻</span> Retry Generation
+        </button>
+        <button class="btn-secondary" id="btnOpen" onclick="openOutput()" style="display:none">
+          <span class="btn-icon">📄</span> Open Output
+        </button>
+        <span class="elapsed-timer" id="elapsedTimer"></span>
+      </div>
+    </section>
+
+    <!-- PROGRESS CARD -->
+    <section class="card" id="cardProgress">
+      <div class="card-header">
+        <span class="card-icon">⚡</span>
+        <h2 class="card-title">Progress</h2>
+        <span class="progress-meta" id="progressMeta">Waiting to start…</span>
+      </div>
+
+      <div class="progress-track">
+        <div class="progress-fill" id="progressFill" style="width: 0%"></div>
+        <div class="progress-glow" id="progressGlow" style="width: 0%"></div>
+      </div>
+
+      <div class="progress-stats">
+        <span id="progressBatch" class="stat-batch">—</span>
+        <span id="progressPct" class="stat-pct">0%</span>
+        <span id="progressScenes" class="stat-scenes">0 / 0 scenes</span>
+      </div>
+    </section>
+
+    <!-- LOG CARD -->
+    <section class="card card-log" id="cardLog">
+      <div class="card-header">
+        <span class="card-icon">📋</span>
+        <h2 class="card-title">Status Log</h2>
+        <button class="btn-clear" onclick="clearLog()">Clear</button>
+      </div>
+      <div class="log-body" id="logBody">
+        <div class="log-empty">Ready. Select a file and start generation.</div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ACCOUNT SWITCHER MODAL -->
+  <div class="modal-backdrop" id="modalBackdrop" onclick="closeAccountModal()"></div>
+  <div class="modal" id="accountModal">
+    <div class="modal-header">
+      <h3 class="modal-title">⚡ Switch Account</h3>
+      <button class="modal-close" onclick="closeAccountModal()">✕</button>
+    </div>
+    <div class="modal-body">
+      <div class="account-list" id="accountList">
+        <div class="account-empty">Loading accounts…</div>
+      </div>
+    </div>
+    <div class="modal-footer">
+      <button class="btn-modal-action" id="btnSaveSession" onclick="saveCurrentSession()">
+        💾 Save Current Session
+      </button>
+      <button class="btn-modal-secondary" onclick="launchLogin()">
+        🔓 New Login
+      </button>
+    </div>
+  </div>
+
+  <!-- SAVE ACCOUNT DIALOG -->
+  <div class="modal-backdrop" id="saveBackdrop" onclick="closeSaveDialog()" style="display:none"></div>
+  <div class="modal modal-sm" id="saveDialog" style="display:none">
+    <div class="modal-header">
+      <h3 class="modal-title">Save Session</h3>
+      <button class="modal-close" onclick="closeSaveDialog()">✕</button>
+    </div>
+    <div class="modal-body">
+      <div class="form-group">
+        <label class="form-label">Account Label (e.g. your email)</label>
+        <input type="text" id="saveLabel" class="form-input" placeholder="zains@gmail.com" />
+      </div>
+    </div>
+    <div class="modal-footer">
+      <button class="btn-primary btn-sm" onclick="confirmSaveSession()">Save</button>
+      <button class="btn-modal-secondary btn-sm" onclick="closeSaveDialog()">Cancel</button>
+    </div>
+  </div>
+
+  <!-- TOAST -->
+  <div class="toast" id="toast"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>

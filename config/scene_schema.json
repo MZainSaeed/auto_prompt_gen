@@ -1,0 +1,28 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "scenes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "scene_number": {
+            "type": "integer"
+          },
+          "prompt": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "scene_number",
+          "prompt"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "scenes"
+  ]
+}

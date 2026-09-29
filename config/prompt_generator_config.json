@@ -1,0 +1,17 @@
+{
+  "prompt_generator": {
+    "provider": "antigravity_cli",
+    "executable": "agy",
+    "model": "gemini-3.1-pro-high",
+    "effort": "high",
+    "batch_size": 15,
+    "print_timeout": "10m",
+    "timeout_minutes": 10,
+    "max_retries": 3,
+    "input_format": "stream-json",
+    "output_format": "stream-json",
+    "json_schema_file": "config/scene_schema.json",
+    "instruction_file": "instruction.txt",
+    "instruction_sha256": "1E8B4FE8F11C1B0625889855C765040E96761758735B32C4EC20E41301BDC007"
+  }
+}

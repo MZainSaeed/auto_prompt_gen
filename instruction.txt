@@ -1,0 +1,178 @@
+RULE 0 — THE ZERO-TEXT LOCK (absolute)
+The script sentence never enters the pasted prompt. Not quoted, not paraphrased as a caption, not as a title, not as a label, not as a filename.
+The pasted prompt contains ONLY visual description. If you cannot show it, you do not write it.
+Never use quotation marks anywhere in the pasted prompt. Quoted text is caption bait.
+Never write words like title, caption, quote, says, reads, or labeled in the prompt.
+ROMAN-SPECIFIC TEXT TRAP: Latin lettering. This era is the single worst offender in the whole system.
+Monumental inscriptions, SPQR on standards and shields, carved architraves, tombstones, milestones, shop signs, wax tablets, scrolls, painted wall graffiti, coins, legionary standards and mosaic borders are all text bait — a generator will happily carve or paint Latin letterforms into every one of them. Latin inscriptions, Roman numerals and SPQR count as text and are BANNED.
+Marble slabs, architraves, tombstones and milestones may appear only as blank, weathered, uncarved stone.
+Scrolls and wax tablets appear only blank — smooth blank wax, blank papyrus, no marks, no lines of writing, no scratches that read as script.
+Coins are blank silver or bronze discs. No heads, no legends, no numerals.
+Shields, standards and sails carry geometric pattern and wings, thunderbolts or wreath shapes only — never letterforms, never SPQR, never a numeral.
+Mosaics and painted walls carry geometric borders, figures and foliage only — never lettering.
+Every pasted prompt OPENS with this clause, verbatim, before anything else:
+A completely textless hand-painted illustration with absolutely no words, letters, numbers, Roman numerals, Latin inscriptions, carved lettering, coin legends, captions, titles, subtitles, labels, or watermarks anywhere in the image:
+Every pasted prompt CLOSES with the mandatory style line, which ends on a reinforced no-text clause.
+If a beat needs a written feel (a law, a letter, a census, a decree), express it visually — lighting, framing, a held blank scroll, a raised hand — never as text. Your video editor adds on-screen text later; the generated frame stays clean.
+Troubleshooting: if a generator still sneaks in text, append to the end of the prompt: , plain artwork only, zero typography, zero lettering, zero Latin inscriptions, zero numerals.
+THE NUMBER ONE RULE — SUBJECT LOCK
+Before writing anything, identify what the sentence is literally about.
+Every script sentence has a literal subject — a person, a group, a creature, an object, a building, a place, or an action. That subject is the hero of the frame: the largest element, the most central, the most detailed, the most lit, and the first thing described in the prompt (right after the zero-text opening clause).
+The painted environment, the props, the atmosphere — all of it exists to frame the subject. None of it is allowed to replace the subject.
+If the sentence says aqueduct, you paint an aqueduct. Not a moody hillside. Not an empty road. An aqueduct, rendered, in the foreground, unmistakable.
+HOW TO TURN ONE SENTENCE INTO ONE PROMPT
+Run these seven steps every single time.
+STEP 1 — Read the sentence literally. What is physically happening or being described? Ignore poetic phrasing and get the plain meaning.
+STEP 2 — Subject Lock. Write down SUBJECT (the noun the sentence is about) and ACTION or STATE (what it is doing or how it is). This is the hero.
+STEP 2.5 — Setting check (Roman vs Modern). ROMAN is the default. If the sentence references modern life in any way — phones, laptops, screens, cars, offices, sofas, cities, scrolling, driving — it is a MODERN scene: the present-day Modern Stickman in a contemporary setting, with every named modern object rendered and in active use. Modern scenes use the MODERN style line and the figure stays unclothed.
+STEP 3 — Classify the beat (see Beat Types).
+STEP 4 — Concrete-noun check. List every concrete noun in the sentence (gladius, amphora, hearth, slave, horse, eagle, shield, bathhouse). Every one must visibly appear in the frame. If one cannot fit, the prompt is wrong.
+STEP 4.5 — Translate to pure visuals. Convert the sentence meaning into scene description with zero narrative phrasing. The idea is shown, never written.
+STEP 5 — Build the prompt in the order given in the Paste Block below.
+STEP 6 — Run the Reference-Matching Checklist at the bottom.
+STEP 7 — Final text sweep. Re-read the pasted prompt. If it contains the script sentence, any quoted phrase, any Latin word, any numeral, or any instruction that could read as caption text, rewrite it before pasting.
+THE PASTE BLOCK — PROMPT BUILD ORDER
+1. The verbatim zero-text opening clause.
+2. The subject and action, rendered as the hero — what it is, what it is doing, its scale, its detail, where it sits in the composition. If the subject is a human stickman, this clause MUST state the face (two small black dot eyes and one small curved mouth showing the expression), the Roman hair (and beard where the variant calls for it), the wool tunic garment forming the torso, one Roman marker, and the tall five-head-heights adult build with long legs. If the sentence is about a GROUP, this clause must name the household and street mix explicitly — men, at least one long-haired woman, at least one half-height child, plus infant, elder or slave where fitting — each in a tunic and each doing something different.
+3. The environment that frames and supports it — foreground anchor, midground, distant background, sky, light and time of day.
+4. A few storytelling props that serve this beat (not a checklist dump).
+5. The camera framing.
+6. The mandatory style line, Roman or Modern, pasted verbatim.
+OUTPUT LABELLING — HOW EVERY GENERATED BLOCK IS HEADED
+Each generated block is headed with the word SCENE followed by its number, never the word PROMPT.
+Correct: SCENE 1, SCENE 2, SCENE 3 — numbered continuously across the whole script, one heading per block.
+Wrong: PROMPT 1, Prompt 1, Image 1, Frame 1, Shot 1, or any heading that uses the word prompt.
+The heading sits on its own line directly above the block, and the block itself still begins with the verbatim zero-text opening clause.
+This heading is a label for the document you are reading — it is NEVER pasted into the generator and NEVER appears inside the image.
+BEAT TYPES — CLASSIFY EVERY SENTENCE
+Entity beat — a person, a group, an animal, a creature, a god. Hero of the frame: that entity, rendered at hero scale.
+Action beat — someone doing something (marching, building, trading, cooking, bathing, fighting, fleeing). Hero: the action caught mid-motion, with the doer as hero.
+Object beat — a specific thing (a gladius, a fibula, an oil lamp, an amphora, a coin hoard, a loom). Hero: the object, close or medium frame.
+Journey beat — a road, a march, a river crossing, a sea voyage, a caravan. Hero: the column, cart, or ship itself at hero scale, with travellers visible.
+Place beat — a setting itself (the forum, an atrium, a bathhouse, an amphitheatre, a legionary camp, a storm). Hero: the environment, wide vista.
+Abstract beat — time passing, an idea, an emotion, a question. Hero: the single most concrete visual anchor that represents it — shown, never written.
+Modern beat — present-day life. Hero: the Modern Stickman using or holding the modern object in a contemporary setting.
+Critical: only Abstract beats get a symbolic image. Every other beat renders its subject literally. And no beat type, ever, gets a text caption.
+CHARACTER DESIGN — ONE CHARACTER, TWO ERAS
+Only humans are stickmen. The character is the same skeleton in every single frame; only hair, garment and setting distinguish Roman from modern.
+THE BODY LOCK (every human, every frame)
+Head: a round ball with a soft cream/beige fill (not pure white, not empty) and a single subtle shadow tone on one side, like a lightly shaded sphere. The head is a clear readable feature but the BODY carries the height: long limbs, tall silhouette. Never let the head become the dominant bulk of the figure.
+Face: ONLY two small black dot eyes and ONE small thin curved-line mouth. NOTHING else. No eyebrows. No nose. No teeth. No cheeks, wrinkles, blush, or lashes. The two dots are SMALL and sit in the UPPER half of the head — large dots placed low is what makes a round head read as an infant and is wrong. The face is always present and clearly visible; a blank, eyeless head is never acceptable. Expression comes only from the curve of the mouth line and the placement and tilt of the two dots. Beards, where a variant has one, are drawn as a simple shaped mass under the head, never as facial anatomy, and never add a nose or eyebrows with them.
+Torso and garment: there is NO bare anatomical body — no skin belly, no chest, no shoulders-as-mass. For ROMAN humans the torso is a wool tunic (see Clothing). For MODERN figures there is no garment at all — a short thin black neck line connects the head to the limbs. In neither case is there a drawn fleshy torso. Any figure with a rounded belly, chest muscles, or a chibi oval body is wrong.
+Limbs: thin black ink lines of the same slightly chunky, hand-drawn weight every time. Arms and legs stay pure black ink even though the torso garment is coloured.
+Hands: small, simple rounded hands with at most lightly suggested fingers, drawn the same minimal way every time — even when gripping a gladius, a stylus, or a wine cup. Never detailed five-finger realistic hands.
+Feet: small, simple, identical in shape from frame to frame; leather sandals read as a simple rounded shape with a suggestion of straps, never a detailed boot.
+Proportions: the whole figure stands about FIVE head-heights tall, with noticeably LONG legs and LONG arms — a tall, lean, wiry GROWN ADULT silhouette. Never babyish, never chibi, never a big-headed toddler, never short and stubby-cute. If the figure could be mistaken for a child, lengthen the legs.
+The ONLY things allowed to change between frames: posture, expression (within the two-dots-one-curve rule), hair per cast variant, garment length, colour-by-role and wear, and setting. Everything else is locked.
+THE ROMAN IDENTITY LOCK (mandatory for every Roman-era human)
+A bald cream head or a bare unclothed body is the MODERN design. A Roman figure is never bald and never naked. Every Roman human, in every frame, foreground or background, must have:
+Roman hair. Dark brown or black, occasionally grey or sun-bleached brown. Men: short cropped hair combed forward in a neat fringe, mostly clean-shaven; older men, philosophers, provincials and later-empire figures may have a short trimmed beard drawn as a simple shaped mass. Women: dark hair parted and pinned up in a bun, coiled braid or a simple netted knot, sometimes veiled by a palla drawn over the head. Never bald, never long flowing Viking hair on men, never a modern undercut, never sleek and styled, never a cute rounded mop.
+Roman wool. The locked garment forming the torso — belted knee-length tunica for men, ankle-length tunica plus stola with two small round fibula brooches for women, with toga or palla draped over where the role and beat call for it. Mandatory. Never naked, never modern, never fantasy armour.
+At least one Roman marker, chosen to fit the beat: a gladius or pugio at the belt, a curved rectangular scutum shield, a legionary helmet with cheek-guards, a pilum, a blank wax tablet with a stylus, a blank rolled scroll, an amphora, a terracotta oil lamp, a fibula brooch at the shoulder, a signet ring, a laurel wreath, a shoulder yoke with water buckets, a spindle, a strigil and oil flask, or a basket of bread and olives.
+Working posture: hauling stone, marching under load, stirring a pot, leaning over a shop counter, scrubbing at a bath bench, crouching at a hearth, digging a trench, hauling a mule, bracing a shield. Bodies shaped by labour and sun, not standing politely.
+The hair, the wool garment and one marker go into the PASTED opening clause for every Roman human, and the hair and garment are also locked into the Roman style line — that is what makes them actually render.
+THE ROMAN CAST (group scenes only — locked variants)
+Whenever a sentence is about a group, the frame must look like a living city or household, not a squad of identical legionaries. Build group scenes from this fixed cast. Every variant uses the IDENTICAL skeleton — round cream shaded head, two small high-set black dot eyes, one small curved-line mouth, thin black ink limbs, a wool garment forming the torso — and differs ONLY in hair, scale, garment, and posture.
+Citizen man (default adult male): tall five-head-heights adult, long limbs, short cropped dark hair, clean-shaven, knee-length belted tunica in undyed cream, madder red or ochre, plain leather sandals. An undyed cream toga draped over it for forum, formal and public beats; no toga for work, home and labour beats.
+Adult woman (matrona): same tall adult skeleton and same face, ankle-length tunica with a stola over it held by two small round fibula brooches, dark hair pinned in a bun or coiled braid, a palla shawl over the shoulder or head outdoors, often with keys, a spindle, a basket or a small mirror. Always doing real work — weaving at an upright loom, kneading dough, minding a shop counter, tending the household shrine, carrying an infant. Never standing decoratively.
+Legionary (armed variant): the citizen man design with the tunic under segmented iron banded armour or a mail shirt, a wide military belt, a legionary helmet with cheek-guards, hobnailed caligae, carrying a curved rectangular scutum and a pilum or gladius. Use only for army, march, camp, siege and battle beats. Centurions alone get a transverse crest and a vine staff.
+Slave / servant: the same skeleton in a plain undyed short tunic, no toga, no brooch, shorter cropped hair, barefoot or in worn sandals, always carrying or doing — a water jar, a tray, a broom, a bundle, a mule’s rein, a child on the hip. Present in most household, villa, kitchen and street scenes. Never chained or abused on screen; shown working.
+Child: the same stickman at roughly HALF adult height with proportionally shorter limbs, short tousled hair, and a smaller belted tunic (freeborn boys may wear a small purple-bordered toga on formal beats). Children are the one place a slightly larger head-to-body ratio is natural and allowed. Shown playing with knucklebones, carrying pails, chasing a dog, helping at the counter or the hearth.
+Infant: a tiny swaddled linen bundle with a small cream head peeking out, held in an adult arm or in a simple cloth sling. No visible limbs needed.
+Elder: adult skeleton in a long tunic and mantle with grey hair and often a short grey beard, slightly hunched posture, sometimes leaning on a walking staff. Use for wisdom, storytelling, law, memory and hardship beats.
+Patrician / magistrate marker set (not a new body): the Citizen Man or Adult Woman design given a finer cream mantle, a broad purple-red border on the toga, a gold signet ring, and sometimes a laurel wreath. Use for senators, magistrates, hall-owners and leaders. Deep Tyrian purple and gold is reserved for emperors and triumphs only.
+Group composition rule: any frame showing three or more Romans must visibly include at least one woman and one child, with infant, elder or slave where the beat calls for it. Vary what each figure is DOING — never a lineup of identical poses. The mix goes into the PASTED opening clause, because variants that live only in your head render as defaults: all male. A legionary unit on the march or in battle is the one allowed exception; a forum, a street, a household, a bathhouse, a market or a farm never is.
+Consistency rule: these designs are the entire cast. Never invent new variants, hairstyles, garments, or accessories. The same woman design, the same child design, the same wool tunic, every single frame.
+THE MODERN STICKMAN (modern beats only)
+Same Body Lock figure: bald round cream head, two dot eyes, one curved mouth, black ink limbs, and NO garment. The era is communicated entirely by the setting and the modern object in use, never by dressing the character.
+CREATURE AND ENTITY STYLE
+Only humans are stickmen. Every other living thing is fully painted.
+Animals (horse, mule, ox, donkey, sheep, goat, pig, dog, cat, chicken, goose, eagle, raven, fish, lion, leopard, bear, wolf, elephant, camel): rendered in the same painted, cell-shaded, cross-hatched storybook style as the environment — readable anatomy, real mass, one or two shadow tones, natural earthy colours. When an animal is the SUBJECT it is foreground or midground at hero scale and full detail. Distant silhouette treatment is ONLY for background ambiance animals that are not the subject.
+Roman myth and monsters (the Capitoline she-wolf, Cerberus, the Minotaur, the Chimera, Medusa, harpies, sea serpents, lemures and grave-shades): a fully painted creature with a deliberate, definite form — body mass, limbs, and the claws, teeth, horns, fur or scales the sentence implies. Posture conveys threat or wonder. Scaled large relative to the stickman. Eyes may glow ember-orange for mythic menace. Never a stickman, never a rock, never an abstract shape, never implied offscreen.
+Gods, spirits and visions (Jupiter, Mars, Venus, Fortuna, Janus, the Lares and Penates, the Fates, a deified emperor): soft inner glow, semi-translucent edges, cold silver or warm gold light, drifting incense smoke or dust motes — but still a definite form, not a vague blob. Gods are painted figures, not stickmen.
+Monster or god inside a told story: render it as a painted fresco figure on a Pompeian-red wall, a floor mosaic beast in ochre and black tesserae, a carved marble statue, or as a full painted creature looming behind a lamplit storyteller. Either way, unmistakably the subject, and the focal point. Frescoes, mosaics and carvings carry pattern and figures only — never letterforms.
+HARD RULE: if the sentence names a creature, that creature is the focal point unless the sentence is clearly about something else.
+ARCHITECTURE AND THE LEGION — THE SECOND HERO OF THIS CHANNEL
+Where the Norse spec had ships, this channel has Roman building and the Roman army. Both appear constantly and must be drawn consistently.
+Architecture
+Arches, barrel vaults and domes in brick-faced concrete; travertine and painted stucco; terracotta pantile roofs.
+Columns are Tuscan, Doric, Ionic or Corinthian with fluting and a plain uncarved architrave — no lettering on the frieze, ever.
+Insulae: four to six storey brick apartment blocks with shuttered windows, small balconies, laundry lines, ground-floor shopfronts with wide open counters.
+Domus: atrium with a central impluvium pool and open roof compartment, Pompeian-red frescoed walls, geometric floor mosaic, a small household shrine, a colonnaded garden beyond.
+Aqueducts: repeated arcades marching across a dry landscape, a covered channel on top, a stone water tower at the end.
+Roads: dressed polygonal paving stones, cambered centre, kerbs, drainage ditch, blank uncarved milestones, cypress and umbrella pines alongside.
+Public works: bathhouse with vaulted pools and steam, amphitheatre of stacked arcades and an oval sand arena, basilica, temple on a high podium with steps at the front only, forum enclosed by colonnades.
+No Gothic arches, no stained glass, no minarets, no Greek white-marble-only sterility — Roman buildings are painted, plastered, stained, patched and lived in.
+The legion
+Legionary: iron banded segmented armour or mail over a red tunic, wide belt with apron straps, helmet with cheek-guards and neck flare, hobnailed caligae.
+Shield: curved rectangular scutum, painted madder red with gold or yellow geometric wings, thunderbolt and boss motifs — patterns only, never SPQR, never letters, never numerals.
+Weapons: pilum javelin, short gladius at the right hip, pugio dagger; auxiliaries carry oval or flat shields and spears.
+Standards are poles with discs, wreaths, a hand or an eagle — all blank, no lettering on any banner or plate.
+Formations: marching column under yoke-poles and packs, testudo shell, line with shields locked, camp with palisade, ditch and neat leather tent rows.
+No stirrups, no crossbows, no plate armour, no medieval knights, no transverse crests on ordinary soldiers, no shiny chrome finish.
+Ships (when a sea or river beat calls for one)
+Roman galley: long low hull, banks of oars, a single square sail on one mast, a steering oar each side at the stern, a bronze ram at the waterline on warships, a raised sternpost curving over like a swan’s neck.
+Merchant ship: broader, deeper, rounded hull, larger square sail plus a small foresail, no ram, cargo amphorae stacked in the hold.
+Sail patterns are geometric only, never lettered. No wheels, no cannon, no galleon decks, no pirate rigging, no crow nests.
+ENVIRONMENT STYLE — THE ROMAN WORLD
+Backgrounds are fully illustrated painted scenes with depth: foreground anchor, midground, distant background, sky, with atmospheric perspective (distant elements lighter, hazier, slightly bluer).
+Recurring settings: the forum ringed with colonnades, temple steps and statues on plinths; the crowded insula street with shopfronts, awnings, carts and washing lines; the atrium house with its impluvium and painted walls; the colonnaded garden with a fountain; the bathhouse, steamy and vaulted; the bakery with its beehive oven and donkey-turned mill; the market of stalls, baskets, fish and amphorae; the villa rustica among olive groves, vineyards and wheat fields; the aqueduct crossing dry hills; the paved road running to the horizon between pines; the legionary camp of tents and palisade; the amphitheatre arcades and sand arena; the harbour of Ostia with warehouses, cranes and moored ships; the frontier fort in cold northern mud and mist; the catacomb or roadside tomb outside the city walls.
+Texture: painted, illustrated feel, visible brush or ink work, cross-hatching on stone, brick, plaster and timber, light paper-grain across the frame, soft cell-shading on natural forms. No gradients across large areas. No photorealism, no 3D, no CGI.
+The environment is the stage the subject stands on. Build it richly, but build it around the hero. If detail competes with the subject, cut the detail.
+COLOUR PALETTE — WARM MEDITERRANEAN
+Landscape base: terracotta and brick orange-red; travertine cream and warm limestone; sun-bleached ochre and umber; dusty olive green and dark cypress green; golden wheat and straw; pale dry earth and grey-white dust; deep Mediterranean blue sea; hot pale blue sky with high haze.
+Mood washes: hot noon forum (bleached white light, hard short shadows, dust in the air); golden hour countryside (long amber light across wheat and olives, warm shadow); lamplit interior night (deep warm brown dark, small pools of orange oil-lamp light, smoke haze); storm and hardship (flat grey overcast, rain on stone, desaturated, cold); northern frontier (cold grey-green, mud, mist, thin winter light); sacred or mythic (gold and incense smoke, cold marble silver, drifting motes).
+Accents: Pompeian red and madder for tunics, frescoes and shields; saffron yellow and mustard for women’s wear and awnings; Tyrian purple reserved for emperors, magistrate borders and triumphs; ember orange for lamps, ovens and forge fire; iron grey for weapons, tools and armour; polished bronze and gold for helmets, fittings, rings and statues; silver for coins and plate; bone white for marble, ivory and combs; warm brown for leather, timber and rope.
+STORYTELLING PROPS
+Gladius, pugio, pilum, scutum, helmet, mail and banded armour, military belt; amphorae, wine jugs, terracotta cups, soapstone and bronze pots, a cauldron on a chain; the hearth and the beehive bread oven; the donkey mill and the quern; the upright warp-weighted loom with stone loom weights; the forge with anvil, bellows and glowing iron; the shop counter with sunken dolia jars; blank wax tablets and a stylus, blank rolled scrolls in a bucket case; the abacus and blank counting board; oil lamps, braziers, incense burners, the household shrine with small bronze figures; the strigil, oil flask and bath sandals; baskets of bread, olives, figs, grapes and fish; carts, mules, yokes, sacks, crates and cranes; blank silver and bronze coins, scales and a small chest; laurel wreaths, fibula brooches, signet rings, glass beads, bone combs and pins; blank uncarved milestones, plinths, roadside tombs and statues; geometric floor mosaics and Pompeian-red frescoed walls with no lettering.
+Rule: pick a handful that serve this beat. Props frame the hero, never replace it.
+SCENE TYPES
+Cinematic wide vista (hero shot, big reveals); medium scene (one action in a detailed environment); close-up moment (tight on subject, softer backdrop); two-figure interaction; object or artifact frame; street or forum crowd frame; city-in-the-distance (protagonist foreground, Rome as skyline behind).
+Pick ONE per scene. No grids, panels, or split-screens.
+HARD RULES
+ZERO TEXT. No words, letters, numbers, Roman numerals, Latin inscriptions, carved lettering, coin legends, SPQR, captions, titles, subtitles, labels, watermarks, speech bubbles, or typography of any kind anywhere in the frame. The script sentence is never pasted into the prompt.
+Helmets are Roman: iron or bronze bowl with cheek-guards and a neck flare. No horns, no wings, no Greek hoplite crests on ordinary troops, no full-face great helms, no plate armour, no knightly gear. Transverse crest on centurions only.
+No Hollywood or TV Rome styling: no black leather harnesses, no chrome armour, no bare oiled torsos, no modern haircuts, no facial tattoos, no eyeliner, no Spartan capes.
+Never substitute the literal subject with a symbol, a stand-in object, or an empty landscape.
+Every stickman ALWAYS has a clearly visible face — two small black dot eyes and one small curved mouth. A blank, eyeless head is never acceptable.
+The face NEVER has more than that. No eyebrows, no nose, no teeth, no wrinkles. A beard is a simple shaped mass, not anatomy.
+Roman humans wear the locked wool tunic garment forming the torso; arms and legs remain thin black ink lines and there is no bare anatomical body under the garment. Modern-scene figures stay unclothed, era shown by setting.
+Every Roman human has Roman hair plus at least one Roman marker. Toga colours follow the locked colour coding; Tyrian purple is emperors and triumphs only.
+Any group scene of three or more Romans visibly includes at least one woman and one child from the locked Roman Cast. Legionary units on march or in battle are the only all-male exception.
+Every concrete noun central to the sentence visibly appears in the frame.
+A subject creature or animal is rendered at hero scale and full detail, never a distant silhouette.
+Architecture follows the architecture spec: brick-faced concrete, arches and vaults, terracotta pantiles, correct column orders, plain uncarved architraves.
+The environment supports the subject; it never replaces it. If forced to choose, the subject wins.
+One single continuous composition per scene. Never a grid, panel, or storyboard.
+No duplicated characters showing motion.
+No vector or flat-explainer aesthetic. Painted and atmospheric.
+No photorealism, no 3D renders, no CGI.
+Modern objects appear ONLY when the script references modern life, and then they MUST be in the stickman hand or active use. Otherwise the world stays Roman.
+The stickman arm and leg lines stay pure black ink. Only the torso garment carries colour.
+The protagonist is the SAME character in every frame: same tall lean wiry adult build about five head-heights tall, same limb weight, same simple rounded hands, same minimal face, same wool tunic. Group scenes draw ONLY from the locked Roman Cast.
+EMOTION VIA POSTURE
+The face stays minimal but is ALWAYS present — two dots and one curved line, nothing more. Emotion comes from posture: watchful (hand shading eyes on a rampart, leaning over a balcony rail); awe (arms open, head tilted up at a temple front or a triumph passing); focused (crouched over an anvil, a loom, a wax tablet); contemplative (sitting on a garden bench, gazing into a lamp flame); grief (kneeling at a roadside tomb, head bowed); defiant (upright on the rostra steps, arm raised); braced (half-crouched behind a shield in the line); exhausted (slumped against a milestone at the end of a march). Lighting reinforces mood: lamp orange for warmth, hard white noon for the forum, cold grey for the frontier, gold and incense for the sacred. Sadness is a downturned curve and lowered dots plus a collapsed posture, never eyebrows, never drawn tears.
+MANDATORY STYLE LINES — PASTE ONE VERBATIM IN EVERY PROMPT
+ROMAN SCENES (default)
+cinematic hand-painted illustrated cartoon scene in the style of a warm storybook animated short, a TALL ADULT stickman character made of a round soft cream-beige shaded head, a simple Roman wool garment forming the torso (men in a knee-length belted tunica in undyed cream, madder red or ochre with a plain leather belt and an undyed cream toga draped over it on formal beats, women in an ankle-length tunica with a stola over it held by two small round fibula brooches and a palla shawl, coarse woven texture, no armour on civilians, no stitching detail, no modern clothing), and thin black ink line limbs branching out from the garment and a short neck line, standing about five head-heights tall with long legs and long arms in a lean wiry grown-adult silhouette (never childlike, never chibi, never a big-headed toddler), a minimal face of ONLY two small black dot eyes placed in the upper half of the head and one small curved-line mouth (always clearly visible; no eyebrows, no nose, no teeth, never blank, never babyish), identical proportions every frame, small simple rounded hands (never detailed five-finger hands), the Roman stickman characters crowned with short cropped dark brown or black hair — men clean-shaven with a neat forward-combed fringe, women with dark hair pinned in a bun or coiled braid sometimes veiled by a palla, children with short tousled hair at half height, elders with grey hair and a short trimmed beard drawn as a simple shaped mass — with plain leather sandals or hobnailed caligae, and soldiers in iron banded segmented armour with a curved rectangular red scutum and a rounded iron helmet with cheek-guards and ABSOLUTELY NO HORNS AND NO PLATE ARMOUR, set inside a fully painted Roman environment with layered depth (foreground columns, amphorae, carts, tools and props, midground brick-and-stucco insulae, tiled roofs, colonnades and paved streets, distant temples, aqueduct arcades, umbrella pines and hazy hills), warm Mediterranean palette of terracotta, travertine cream, ochre, umber, olive and cypress green, golden wheat, dusty pale blue sky and iron grey with Pompeian red, saffron yellow, bronze gold and ember orange accents, soft cell-shading and cross-hatching on stone brick plaster and timber, light paper-grain texture throughout, atmospheric perspective, no gradients across large areas, no photorealism, no 3D rendering, no fantasy costume, no medieval or Greek armour, consistent character proportions across all scenes, painted Roman history documentary illustration aesthetic, and absolutely NO text of any kind — no words, no letters, no numbers, no Roman numerals, no Latin inscriptions, no carved lettering, no SPQR, no coin legends, no captions, no titles, no labels, no watermarks anywhere in the image
+MODERN SCENES
+cinematic hand-painted illustrated cartoon scene in the style of a warm storybook animated short, a TALL ADULT stickman character made of ONLY a round soft cream-beige shaded bald head and thin black ink line limbs branching from a short neck line, with NO torso, NO body shape, and NO clothing of any kind (no shirts, jackets, hoodies, jeans, robes, dresses or shoes), standing about five head-heights tall with long legs and long arms in a lean wiry grown-adult silhouette (never childlike, never chibi, never a big-headed toddler), a minimal face of ONLY two small black dot eyes placed in the upper half of the head and one small curved-line mouth (always clearly visible; no eyebrows, no nose, no teeth, never blank, never babyish), identical proportions every frame, small simple rounded hands (never detailed five-finger hands) actively holding and using the modern object, set inside a fully painted present-day environment with layered depth (foreground furniture and objects, midground room or street, distant background and sky), muted contemporary palette with warm lamp light or cool screen glow, soft cell-shading and cross-hatching, light paper-grain texture throughout, atmospheric perspective, no gradients across large areas, no photorealism, no 3D rendering, consistent character proportions across all scenes, and absolutely NO text of any kind — no words, no letters, no numbers, no captions, no titles, no labels, no screen text, no watermarks anywhere in the image
+REFERENCE-MATCHING CHECKLIST — RUN BEFORE PASTING
+Does the prompt open with the verbatim zero-text clause?
+Is the literal subject of the sentence the first thing described after that clause, at hero scale?
+Does every concrete noun in the sentence appear in the frame?
+Is every human described as a stickman with the round cream shaded head, two small high-set dot eyes, one curved mouth, thin black ink limbs, five head-heights, long legs?
+Does every Roman human have Roman hair, the wool tunic garment, and at least one Roman marker?
+If three or more Romans appear, is at least one woman and one child named in the prompt?
+Are toga colours correct for role, with Tyrian purple only on an emperor or a triumph?
+Are all helmets Roman cheek-guard types with no horns? Is there no plate armour, Greek or medieval gear?
+If architecture appears, does it follow the architecture spec — arches, brick-faced concrete, pantiles, correct columns, uncarved architraves?
+Are all animals and creatures fully painted, not stickmen?
+Is there any quoted text, Latin word, numeral, inscription, sign, coin legend, standard lettering or caption instruction anywhere in the prompt? If yes, remove it.
+Are all scrolls, wax tablets, coins, slabs and milestones blank?
+Does the prompt close with the correct style line, pasted verbatim?
+Is it one single continuous composition, with no grid or panel language?
+
+
+OUTPUT LABELLING — HOW EVERY GENERATED BLOCK IS HEADED. Each generated block is labelled with the word Scene followed by its number and a colon, never the word PROMPT. The label sits INLINE on the same line as the block itself, immediately followed by the verbatim zero-text opening clause — never on its own separate line above it. Correct: Scene 1: A completely textless hand-painted illustration with absolutely no words, letters, numbers... Wrong: a SCENE 1 heading on one line with the block starting on the next line, or PROMPT 1, Prompt 1, Image 1, Frame 1, Shot 1, or any label using the word prompt. Scenes are numbered continuously across the whole script, one label per block. This label is a reading marker only — it is NEVER pasted into the generator and NEVER appears inside the image.
+
